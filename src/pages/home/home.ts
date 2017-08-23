@@ -2,7 +2,9 @@ import { Component } from '@angular/core';
 
 import { NavController } from 'ionic-angular';
 
-//added const data
+/* added const data 
+	array of objects  */
+
 const data = [{
 		title: 'post1',
 		body: 'hi',
@@ -20,20 +22,23 @@ const data = [{
 
 },]
 
+/* component decorator */
+
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
 })
 export class HomePage {
 
-// added -posts : type
+/* added -posts : type */
  	posts: any
 
   constructor(public navCtrl: NavController) {
 
-// added 
+/* added */
 	
 	this.posts = data;
   }
 
 }
+

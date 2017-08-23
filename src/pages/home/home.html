@@ -6,13 +6,16 @@
 
 <ion-content padding>
   <!-- added *ngFor - class member variable - injects into DOM -->
-  <ion-card *ngFor="let card of posts"
+  <ion-card *ngFor="let card of posts">
     <ion-card-content>
       <ion-card-title>
         <!-- escape card  {{ card.title }} -->
         {{card.title}}
-      
       </ion-card-title>  
 
-
+      <p>
+        {{card.body}}
+      </p>  
+    </ion-card-content>
+  </ion-card>
 </ion-content>
