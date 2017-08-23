@@ -1,5 +1,6 @@
 {
   "name": "Ionic-AngularJS_2-newsfeed_app",
   "app_id": "",
-  "type": "ionic-angular"
+  "type": "ionic-angular",
+  "integrations": {}
 }
